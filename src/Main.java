@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        FizzBuzz.main();
+        FizzBuzz.main(null);
         FizzBuzz.doFizzBuzz(5);
 
     }
