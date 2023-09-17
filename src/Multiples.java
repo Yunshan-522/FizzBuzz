@@ -5,10 +5,8 @@ public class Multiples {
             // Find out which numbers divide i.
             boolean divisibleBy3 = i % 3 == 0;
             boolean divisibleBy5 = i % 5 == 0;
-            boolean divisibleBy6 = i % 6 == 0;
-            boolean divisibleBy9 = i % 9 == 0;
 
-            if (divisibleBy3 || divisibleBy5 || divisibleBy6 || divisibleBy9) {
+            if (divisibleBy3 || divisibleBy5) {
                 number += 1;
             }
         }
